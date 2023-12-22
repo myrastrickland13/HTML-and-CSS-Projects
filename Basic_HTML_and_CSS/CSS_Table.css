@@ -1,0 +1,17 @@
+table {
+	border: 1px solid royalblue;
+}
+td:hover {
+	background-color: silver;
+	color: darkblue;
+}
+tr, th {
+	font: bebas neue;
+	color: midnightblue;
+	background-color: silver;
+}
+tr, td {
+	font: teko;
+	color: silver;
+	background-color: darkblue;
+}
