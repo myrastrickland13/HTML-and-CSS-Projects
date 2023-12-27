@@ -3,13 +3,15 @@
 	<head>
 		<meta charset="utf-8">
 		<title> Tattoo Guru </title>
+		<link rel="stylesheet" href="./CSS/shared.css">
+		<link rel="stylesheet" href="./CSS/animations.css">
 	</head>
 	<body>
 		
 		<!--NAV-->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
 					<a href="#contact"><li>RESERVATIONS</li></a>
@@ -20,121 +22,141 @@
 		
 		<!--HOME-->
 		<div id="home">
-			<div>
-				<span>Your Tattoo Guru</span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Your Tattoo Guru</span>
+				</div>
 			</div>
 		</div>
 		<!--END HOME-->
 		
 		<!--GALLERY-->
-		<section>
-			<div id="gallery">
+		<section id="gallery">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 				
 					<!--PHOTO-CONTAINER 1-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumb_1.png" alt="American Traditional">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>The design options are endless!</p>
+								<p>The design options are endless!
+									<br>American Traditional
+								</p>
 							</div>
 						</div>
 					</div>
 					<!--END PHOTO-CONTAINER 1-->
 					
 					<!--PHOTO-CONTAINER 2-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumb_2.png" alt="Neo Traditional">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>The design options are endless!</p>
+								<p>The design options are endless!
+									<br>Neo Traditional
+								</p>
 							</div>
 						</div>
 					</div>
 					<!--END PHOTO-CONTAINER 2-->
 					
 					<!--PHOTO-CONTAINER 3-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumb_3.png" alt="Portrait">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>The design options are endless!</p>
+								<p>The design options are endless!
+									<br>Portrait
+								</p>
 							</div>
 						</div>
 					</div>
 					<!--END PHOTO-CONTAINER 3-->
 					
 					<!--PHOTO-CONTAINER 4-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumb_4.png" alt="Japanese">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>The design options are endless!</p>
+								<p>The design options are endless!
+									<br>Japanese
+								</p>
 							</div>
 						</div>
 					</div>
 					<!--END PHOTO-CONTAINER 4-->
 					
 					<!--PHOTO-CONTAINER 5-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumb_5.png" alt="Anime">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>The design options are endless!</p>
+								<p>The design options are endless!
+									<br>Anime
+								</p>
 							</div>
 						</div>
 					</div>
 					<!--END PHOTO-CONTAINER 5-->
 					
 					<!--PHOTO-CONTAINER 6-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumb_6.png" alt="Watercolor">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>The design options are endless!</p>
+								<p>The design options are endless!
+									<br>Watercolor
+								</p>
 							</div>
 						</div>
 					</div>
 					<!--END PHOTO-CONTAINER 6-->
 					
 					<!--PHOTO-CONTAINER 7-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumb_7.png" alt="Glitter">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>The design options are endless!</p>
+								<p>The design options are endless!
+									<br>Glitter
+								</p>
 							</div>
 						</div>
 					</div>
 					<!--END PHOTO-CONTAINER 7-->
 					
 					<!--PHOTO-CONTAINER 8-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumb_8.png" alt="Fine Line">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>The design options are endless!</p>
+								<p>The design options are endless!
+									<br>Fine Line
+								</p>
 							</div>
 						</div>
 					</div>
 					<!--END PHOTO-CONTAINER 8-->
 					
 					<!--PHOTO-CONTAINER 9-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumb_9.png" alt="Patch">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>The design options are endless!</p>
+								<p>The design options are endless!
+									<br>Patch
+								</p>
 							</div>
 						</div>
 					</div>
@@ -146,27 +168,29 @@
 		 <!--END GALLERY-->
 		 
 		 <!--RSVP-->
-		 <section>
-			<div id="contact">
-				<div>
-					<h1>Reservations</h1>
-					<div>
-						<h2><span>Your next tattoo design could be done by the Tattoo Guru!</span>
-							<br /> Email us with your design enquiries today!
+		 <section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div class="reservation">
+						<h2>
+							<span>Your next tattoo design could be done by the Tattoo Guru!</span>
+							<br /> Discuss your design ideas today!
 						</h2>
-						<p>
+						<p class="rsvp-text">
 							Please provide us with your basic contact information.
+							<br>Someone will contact you to discuss your design ideas!
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
-								<input class="rsvp" type="text" value="First Name">
-								<input class="rsvp" type="text" value="Last Name">
-								<input class="rsvp" type="date" value="Birthday">
-								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<input class="rsvp" type="text" value="" placeholder="Last Name">
+								<input class="rsvp" type="text" value="" placeholder="Birthday">
+								<input class="rsvp" type="text" value="" placeholder="Email Address">
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="SUBMIT">
 								</div>
 							</form>
@@ -178,7 +202,7 @@
 		<!--END RSVP-->
 		
 		<!--FOOTER-->
-		<div>
+		<div id="footer">
 			www.thetattooguru.inked &nbsp;|&nbsp; &copy; 2023
 		</div>
 		<!--END FOOTER-->
