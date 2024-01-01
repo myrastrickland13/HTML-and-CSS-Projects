@@ -1,0 +1,165 @@
+/* BASIC STYLES*/
+html {
+    font-family: sans-serif;
+    font-size: 80%;
+}
+
+body {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    color: #2d502d;
+    font-size: 45px;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* RESERVATION FORM STYLE*/
+
+#reservations {
+    background-color: rgb(246, 236, 223);
+}
+
+#reservations input[type="text"] {
+    font-size: 18px;
+    color: #2d502d;
+    width: 65%;
+    margin: 8px 1em;
+    border-top: 3px solid #ae7305;
+    border-right: 2px solid #ae7305;
+    border-bottom: 3px solid #ae7305;
+    border-left: 2px solid #ae7305;
+    border-radius: 8px;
+    background-color: #9ea476;
+    box-shadow: 0px 5px 3px 0px rgba(0,0,0,.5);
+}
+
+#reservations form {
+    margin-left: 25%;
+}
+
+#reservations h3, #reservations h2, #reservations p {
+    text-align: center;
+    color: #2d502d;
+    margin: .5 auto;
+}
+
+#reservations h2 {
+    font-variant: small-caps;
+}
+
+.submit input[type="submit"] {
+    color: #2d502d;
+    background-color: #9ea476;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 8px;
+    box-shadow: 0 5px 3px 0 rgba(0,0,0,.5);
+    border: 3px solid #ae7305;
+    text-align: center;
+    margin: 8px 1em;
+}
+
+.submit input[type="submit"]:hover {
+    background-color: #2d502d;
+    color: #9ea476;
+}
+
+/*  NAVIGATION BAR STYLE */
+
+.navbar {
+    display: inline-block;
+    height: 100px;
+}
+.menu {
+    margin: 0% auto;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+/* FOOTER STYLES */
+
+#footer {
+    background-color: rgb(66, 62, 62);
+    color: white;
+    text-align: center;
+}
+/*  HOME STYLE */
+#home {
+    background: url(../images/cover.png) no-repeat 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: 200px;
+    padding-top: 350px;
+    padding-bottom: 300px;
+    color: white;
+}
+#home p{
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 4px 2px rgba(0,0,0,.8);
+}
+#home h1 {
+    text-shadow: 2px 4px 2px rgba(0,0,0,.8);
+    font-variant: small-caps;
+}
+
+/*  DESTINATIONS AND RESORTS */
+
+#gallery, #resorts {
+    border-radius: 8px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: #9ea476;
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,.5);
+}
+
+#travel-video iframe {
+    display: block;
+    margin: 0 auto;
+}

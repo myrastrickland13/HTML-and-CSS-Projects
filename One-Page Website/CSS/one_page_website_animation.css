@@ -1,0 +1,85 @@
+/*  NAV BAR */
+.navbar {
+    font-weight: 900;
+    text-align: center;
+    display: inline;
+    margin: 0 auto;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.menu a{
+    color: rgb(153, 115, 25);
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #000;
+    padding: 15px 3%;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.menu a:hover {
+    color: #2d502d;
+}
+
+/*  GALLERY AND RESORTS */
+
+.photo {
+    position: relative;
+    line-height: 0;
+    margin-bottom: 2em;
+    overflow-wrap: hidden;
+    border-radius: 8px;
+    padding: 1px;
+    border: 1px solid rgb(153, 115, 25);
+    background-color: rgb(91,91,42);
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,.7);
+}
+
+.photo-container {
+    text-align: center;
+    margin: 15px auto;
+    width: 350px;
+    height: 190px;
+}
+
+.photo-container img {
+    max-width: 100%;
+    width: 350px;
+    height: 190px;
+}
+
+.photo-overlay {
+    color: #fff;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3)
+}
+.photo-overlay {
+    opacity: 0;
+    transition: opacity .5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.photo-overlay:hover {
+    opacity: 1;
+}
+
+.photo img {
+    transition: transform .5s;
+    transform-origin: 50% 50%;
+}
+
+.photo:hover img {
+    transform: scale(1.1);
+}
