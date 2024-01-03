@@ -53,6 +53,11 @@ section {
 
 #reservations {
     background-color: rgb(246, 236, 223);
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color:rgb(246, 236, 223);
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,.5);
 }
 
 #reservations input[type="text"] {
@@ -155,7 +160,7 @@ section {
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: #9ea476;
+    background-color:rgb(246, 236, 223);
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,.5);
 }
 
