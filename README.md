@@ -14,7 +14,7 @@ This is an example page for a tattoo design company. This was created using HTML
 
 ### Thailand Travels Site
 
-This is an example page of a travle site for Thailand. This was created using HTML and styled with CSS. It includes a navbar linking you to photo containers of resorts, then destinations that can be visited, and a contact form.
+This is an example page of a travle site for Thailand. This was created using HTML and styled with CSS. It includes a navbar linking you to photo containers of resorts, then destinations that can be visited, an embedded travel video, and a contact form.
 
 ### Movie Theater Site
 
